@@ -4,3 +4,9 @@
 .nav-link{
     color: white;
 }
+.nav-link:hover {
+    color: orange;
+}
+.nav-Brand:hover {
+    color: orange;
+}

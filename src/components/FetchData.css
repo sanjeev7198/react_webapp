@@ -1,0 +1,11 @@
+#news-container{
+    box-shadow: 2px 2px 5px grey;
+    margin: 15px;
+    border-radius: 10px;
+    width: 30%;
+    height: 470px
+}
+#news-container:hover {
+    box-shadow: 2px 2px 5px rgb(80, 76, 76);
+    transform: scale(1.01);
+}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-
+import "./FetchData.css"
 
 const FetchData = ({cat}) => {
   const [Data, setData] = useState("");
@@ -22,7 +22,7 @@ const FetchData = ({cat}) => {
           {Data
             ? Data.map((items, index) => (
                 <>
-                  <div className="col-md-6" id="news-container" style={{boxShadow: "2px 2px 5px grey", borderRadius:"10px", margin: "15px", width: "30%", height: "470px"}}>
+                  <div className="col-md-6" id="news-container">
                       <img src={items.urlToImage} alt="Item not found!" className="img-fluid"/>
                     <h5>{items.title}</h5>
                     <p>{items.description}<br></br>
